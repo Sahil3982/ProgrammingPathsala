@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import logo from '../assets/logo.svg'
+import { FaArrowRightLong } from "react-icons/fa6"
 const Navbar = () => {
     return (
         <>
@@ -15,7 +16,7 @@ const Navbar = () => {
                     <Link className="hover:scale-110 hover:transition-transform">Community</Link>
                     <Link className="hover:scale-110 hover:transition-transform">Blog</Link>
                     <Link className="hover:scale-110 hover:transition-transform">Pricing</Link>
-                    <Link><button className="bg-green p-2 px-8 rounded text-white hover:scale-105 hover:transition-transform ">Register Now</button></Link>
+                    <Link><button className="bg-green p-2 px-8 rounded text-white hover:scale-105 hover:transition-transform flex items-center justify-center gap-3">Register Now  <FaArrowRightLong /></button></Link>
                 </div>
             </div>
 

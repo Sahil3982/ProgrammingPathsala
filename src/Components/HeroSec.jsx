@@ -2,7 +2,7 @@ import React from 'react'
 import herologo from '../assets/herologo.svg'
 const HeroSec = () => {
     return (
-        <div className='p-8 m-16 flex justify-between items-center'>
+        <div className='px-24  py-16 flex justify-between items-center bg-gray-100'>
             <div className=''>
                 <b className='text-5xl'>Lessons and insights <div className='text-green'> from 8 years</div></b>
                 <p className='py-6'>Where to grow your business as a photographer: site or social media?</p>
