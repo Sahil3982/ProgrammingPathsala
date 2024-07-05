@@ -3,7 +3,7 @@ import CountUp from 'react-countup';
 const Countercard = ({image , number , name}) => {
     return (
         <div>
-            <CountUp start={0} end={number} delay={2}>
+            <CountUp start={0} end={number} delay={1}>
                 {({ countUpRef }) => (
                     <div className='flex items-center gap-4'>
                         <img className='size-12 h-min' src={image} />

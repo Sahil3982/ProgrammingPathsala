@@ -11,18 +11,18 @@ const Countercom = () => {
             <div className=''>
                 <b className="text-4xl">
                     Helping a local <p className='text-green'>business reinvent itself </p>         </b>
-                <p className="py-6">
+                <p className="py-5">
                     We reached here with our hard work and dedication
                 </p>
             </div>
-            <div className=' flex flex-col gap-1'>
-                <div className='flex justify-between gap-10 p-5'>
+            <div className=' flex flex-col '>
+                <div className='flex justify-between items-center gap-10 p-5'>
 
                     <Countercard image={image1} number={2245341} name='Members' />
                     <Countercard image={image2} number={46328} name='Clubs' />
 
                 </div>
-                <div className='flex justify-between gap-16 p-5'>
+                <div className='flex justify-between items-center gap-10 p-5'>
 
                     <Countercard image={image3} number={828867} name='Event Bookings'/>
                     <Countercard image={image4} number={1926436} name='Payments' />
