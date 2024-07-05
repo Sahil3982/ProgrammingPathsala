@@ -2,7 +2,7 @@ import React from 'react'
 import mainimg from '../assets/mainimg.svg'
 const Maincom = () => {
     return (
-        <div className="flex justify-between items-center px-16">
+        <div className="flex justify-between items-center px-16 p-10">
             <div className="">
                 <img className="size-96" src={mainimg} />
             </div>

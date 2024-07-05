@@ -1,5 +1,9 @@
 import React from 'react'
 import Countercard from './Countercard'
+import image1 from '../assets/image1.png'
+import image2 from '../assets/image2.png'
+import image3 from '../assets/image3.png'
+import image4 from '../assets/image4.png'
 
 const Countercom = () => {
     return (
@@ -11,8 +15,19 @@ const Countercom = () => {
                     We reached here with our hard work and dedication
                 </p>
             </div>
-            <div>
-                <Countercard />
+            <div className=' flex flex-col gap-1'>
+                <div className='flex justify-between gap-10 p-5'>
+
+                    <Countercard image={image1} number={2245341} name='Members' />
+                    <Countercard image={image2} number={46328} name='Clubs' />
+
+                </div>
+                <div className='flex justify-between gap-16 p-5'>
+
+                    <Countercard image={image3} number={828867} name='Event Bookings'/>
+                    <Countercard image={image4} number={1926436} name='Payments' />
+
+                </div>
             </div>
         </div>
     )

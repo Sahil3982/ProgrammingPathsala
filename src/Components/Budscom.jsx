@@ -16,7 +16,7 @@ const Budscom = () => {
                 <p className='py-4'>British Dragon Boat Racing Association</p>
                 <div className='flex justify-start gap-32 items-center gap-2'>
                     <img  className=' size-96 h-min'  src={clientlogo1} />
-                    <strong className='text-2xl text-green flex items-center gap-5'>Meet all customers <span> <FaArrowRightLong /></span> </strong>
+                    <strong className='text-2xl text-green flex items-center gap-5 hover:scale-110 hover:transition-transform'>Meet all customers <span> <FaArrowRightLong /></span> </strong>
                 </div>
             </div>
         </div>
